@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Company</servlet-name>
+    <servlet-class>com.haimeimei.entity.Company</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HeadServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.HeadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompanyDao</servlet-name>
+    <servlet-class>com.haimeimei.dao.CompanyDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompanyDaoImpl</servlet-name>
+    <servlet-class>com.haimeimei.dao.impl.CompanyDaoImpl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DBManager</servlet-name>
+    <servlet-class>com.haimeimei.util.DBManager</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YeJiaoDao</servlet-name>
+    <servlet-class>com.haimeimei.dao.YeJiaoDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YeJiaoDaoImpl</servlet-name>
+    <servlet-class>com.haimeimei.dao.impl.YeJiaoDaoImpl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YeJiaoServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.YeJiaoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>YeJiao</servlet-name>
+    <servlet-class>com.haimeimei.entity.YeJiao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JieShao</servlet-name>
+    <servlet-class>com.haimeimei.dao.JieShao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JieshaoDao</servlet-name>
+    <servlet-class>com.haimeimei.dao.JieshaoDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JieshaoDaoImpl</servlet-name>
+    <servlet-class>com.haimeimei.dao.impl.JieshaoDaoImpl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jieshao</servlet-name>
+    <servlet-class>com.haimeimei.entity.Jieshao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JieshaoServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.JieshaoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WenhuaDao</servlet-name>
+    <servlet-class>com.haimeimei.dao.WenhuaDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WenhuaDaoImpl</servlet-name>
+    <servlet-class>com.haimeimei.dao.impl.WenhuaDaoImpl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Wenhua</servlet-name>
+    <servlet-class>com.haimeimei.entity.Wenhua</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WenhuaServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.WenhuaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Jieshaoer</servlet-name>
+    <servlet-class>com.haimeimei.entity.Jieshaoer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JieshaoerDaoImpl</servlet-name>
+    <servlet-class>com.haimeimei.dao.impl.JieshaoerDaoImpl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JieshaoerDao</servlet-name>
+    <servlet-class>com.haimeimei.dao.JieshaoerDao</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JieshaoerServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.JieshaoerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GuanyuwmenServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.GuanyuwmenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChanpinServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.ChanpinServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>XinwenServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.XinwenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LianxiServlet</servlet-name>
+    <servlet-class>com.haimeimei.servlet.LianxiServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Company</servlet-name>
+    <url-pattern>/Company</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeadServlet</servlet-name>
+    <url-pattern>/HeadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompanyDao</servlet-name>
+    <url-pattern>/CompanyDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompanyDaoImpl</servlet-name>
+    <url-pattern>/CompanyDaoImpl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DBManager</servlet-name>
+    <url-pattern>/DBManager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YeJiaoDao</servlet-name>
+    <url-pattern>/YeJiaoDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YeJiaoDaoImpl</servlet-name>
+    <url-pattern>/YeJiaoDaoImpl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YeJiaoServlet</servlet-name>
+    <url-pattern>/YeJiaoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>YeJiao</servlet-name>
+    <url-pattern>/YeJiao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieShao</servlet-name>
+    <url-pattern>/JieShao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieshaoDao</servlet-name>
+    <url-pattern>/JieshaoDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieshaoDaoImpl</servlet-name>
+    <url-pattern>/JieshaoDaoImpl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jieshao</servlet-name>
+    <url-pattern>/Jieshao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieshaoServlet</servlet-name>
+    <url-pattern>/JieshaoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WenhuaDao</servlet-name>
+    <url-pattern>/WenhuaDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WenhuaDaoImpl</servlet-name>
+    <url-pattern>/WenhuaDaoImpl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Wenhua</servlet-name>
+    <url-pattern>/Wenhua</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WenhuaServlet</servlet-name>
+    <url-pattern>/WenhuaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Jieshaoer</servlet-name>
+    <url-pattern>/Jieshaoer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieshaoerDaoImpl</servlet-name>
+    <url-pattern>/JieshaoerDaoImpl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieshaoerDao</servlet-name>
+    <url-pattern>/JieshaoerDao</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieshaoerServlet</servlet-name>
+    <url-pattern>/JieshaoerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GuanyuwmenServlet</servlet-name>
+    <url-pattern>/Guanyuwmen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChanpinServlet</servlet-name>
+    <url-pattern>/ChanpinServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XinwenServlet</servlet-name>
+    <url-pattern>/XinwenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LianxiServlet</servlet-name>
+    <url-pattern>/LianxiServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index</welcome-file>
+  </welcome-file-list>
+</web-app>
